@@ -1,0 +1,89 @@
+[
+  {
+    "icon":"/java.png",
+    "text":"Java"
+  },
+  {
+    "icon":"/Spring.png",
+    "text":"Spring Framework"
+  },
+  {
+    "icon":"/Hibernate.png",
+    "text":"Hibernate ORM"
+  },
+
+  {
+    "icon":"/PostgreS.png",
+    "text":"PostgreSQL"
+  },
+
+  {
+    "icon":"/Security.png",
+    "text":"Spring Security"
+  },
+
+  {
+    "icon":"/rabbit.png",
+    "text":"RabbitMQ"
+  },
+
+  {
+    "icon":"/aop.png",
+    "text":"Spring AOP"
+  },
+
+  {
+    "icon":"/Docker.png",
+    "text":"Docker"
+  },
+
+  {
+    "icon":"/Maven.png",
+    "text":"Apache Maven"
+  },
+
+  {
+    "icon":"/Git.png",
+    "text":"Git"
+  },
+
+  {
+    "icon":"/spring.png",
+    "text":"MVC"
+  },
+
+  {
+    "icon":"/REST.png",
+    "text":"REST"
+  },
+  {
+    "icon":"/js.png",
+    "text":"JavaScript"
+  },
+  {
+    "icon":"/html.png",
+    "text":"HTML"
+  },
+  {
+    "icon":"/FreeMarker.png",
+    "text":"FreeMarker"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
