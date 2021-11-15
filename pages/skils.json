@@ -13,7 +13,7 @@
   },
 
   {
-    "icon":"/postgreS.png",
+    "icon":"/postgre.png",
     "text":"PostgreSQL"
   },
 
@@ -65,7 +65,7 @@
     "text":"HTML"
   },
   {
-    "icon":"/freeMarker.png",
+    "icon":"/freemarker.png",
     "text":"FreeMarker"
   }
 
