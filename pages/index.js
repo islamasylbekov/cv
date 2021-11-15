@@ -1,19 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/index.module.scss';
 import skils from './skils.json';
-import {
-  Avatar,
-  Box,
-  Chip,
-  Container,
-  CssBaseline,
-  Divider,
-  Grid,
-  Link,
-  List, ListItem, ListItemAvatar, ListItemText,
-  Paper,
-  Typography
-} from '@material-ui/core';
+import {Avatar, Chip, Container, CssBaseline, Divider, Grid, Link, Paper, Typography} from '@material-ui/core';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import EmailIcon from '@material-ui/icons/Email';
 import TelegramIcon from '@material-ui/icons/Telegram';
@@ -22,7 +10,6 @@ import ExtensionIcon from '@material-ui/icons/Extension';
 import SchoolIcon from '@material-ui/icons/School';
 import PersonIcon from '@material-ui/icons/Person';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import GTranslateIcon from '@material-ui/icons/GTranslate';
 import WorkIcon from '@material-ui/icons/Work';
 
 export default function Home() {
@@ -74,29 +61,29 @@ export default function Home() {
                     <span>Контакты</span>
                   </Typography>
                   <Typography className={styles.linkWrap}>
-                    <Link className={styles.link} href="tel:0708194601" underline={'none'}>
-                      <PhoneIphoneIcon className={styles.linkIcon}/> 0 708 194601
+                    <Link className={styles.link} href="tel:+996779683524" underline={'none'}>
+                      <PhoneIphoneIcon className={styles.linkIcon}/> +996 (779) 68-35-24
                     </Link>
                   </Typography>
                   <Typography className={styles.linkWrap}>
-                    <Link className={styles.link} href="mailto:mdnt3138@gmail.com" underline={'none'}>
-                      <EmailIcon className={styles.linkIcon}/> mdnt3138@gmail.com
-                    </Link>
-                  </Typography>
-                  <Typography className={styles.linkWrap}>
-                    <Link className={styles.link}
-                          href="https://telegram.me/CZ_010"
-                          target="_blank"
-                          rel="noopener noreferrer" underline={'none'}>
-                      <TelegramIcon className={styles.linkIcon}/> @CZ_010
+                    <Link className={styles.link} href="mailto:islamasylbekov36@gmail.com" underline={'none'}>
+                      <EmailIcon className={styles.linkIcon}/> islamasylbekov36@gmail.com
                     </Link>
                   </Typography>
                   <Typography className={styles.linkWrap}>
                     <Link className={styles.link}
-                          href="https://github.com/CZ010"
+                          href="https://telegram.me/islam2727"
                           target="_blank"
                           rel="noopener noreferrer" underline={'none'}>
-                      <GitHubIcon className={styles.linkIcon}/> github.com/CZ010
+                      <TelegramIcon className={styles.linkIcon}/> @islam2727
+                    </Link>
+                  </Typography>
+                  <Typography className={styles.linkWrap}>
+                    <Link className={styles.link}
+                          href="https://github.com/islamasylbekov"
+                          target="_blank"
+                          rel="noopener noreferrer" underline={'none'}>
+                      <GitHubIcon className={styles.linkIcon}/> github.com/islamasylbekov
                     </Link>
                   </Typography>
                 </div>
@@ -126,11 +113,10 @@ export default function Home() {
                 </Typography>
                 <Grid className={styles.edu} container>
                   <Grid item xs={3}>
-                    <Typography variant={'body1'}>2017 &#8213; 2021</Typography>
+                    <Typography variant={'body1'}>Август 2020 &#8213; По наст. время</Typography>
                   </Grid>
                   <Grid item xs={9}>
-                    <Typography variant={'body1'}>Высшее незаконченное (бакалавр), КГТУ им. И. Раззакова, Факультет
-                      Информационных Технологий, кафедра ПОКС, специальность «Информационная безопасность».</Typography>
+                    <Typography variant={'body1'}>Государственное учреждение "Укук" при Генералъной прокуратуре Кыргызской Республики.</Typography>
                   </Grid>
                 </Grid>
                 <Typography className={styles.subTitle} variant={'h6'}>
@@ -139,11 +125,11 @@ export default function Home() {
                 </Typography>
                 <Grid className={styles.edu} container>
                   <Grid item xs={3}>
-                    <Typography variant={'body1'}>2017 &#8213; 2021</Typography>
+                    <Typography variant={'body1'}>2018 &#8213; 2022</Typography>
                   </Grid>
                   <Grid item xs={9}>
-                    <Typography variant={'body1'}>Высшее незаконченное (бакалавр), КГТУ им. И. Раззакова, Факультет
-                      Информационных Технологий, кафедра ПОКС, специальность «Информационная безопасность».</Typography>
+                    <Typography variant={'body1'}>Высшее незаконченное (бакалавр), КГУСТА им.Н.Исанова, Факультет
+                      Информационных Технологий, кафедра ПМ, специальность «Программная инженерия».</Typography>
                   </Grid>
                 </Grid>
               </Grid>
