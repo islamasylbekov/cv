@@ -4,21 +4,21 @@
     "text":"Java"
   },
   {
-    "icon":"/Spring.png",
+    "icon":"/spring.png",
     "text":"Spring Framework"
   },
   {
-    "icon":"/Hibernate.png",
+    "icon":"/hibernate.png",
     "text":"Hibernate ORM"
   },
 
   {
-    "icon":"/PostgreS.png",
+    "icon":"/postgreS.png",
     "text":"PostgreSQL"
   },
 
   {
-    "icon":"/Security.png",
+    "icon":"/security.png",
     "text":"Spring Security"
   },
 
@@ -33,17 +33,17 @@
   },
 
   {
-    "icon":"/Docker.png",
+    "icon":"/docker.png",
     "text":"Docker"
   },
 
   {
-    "icon":"/Maven.png",
+    "icon":"/maven.png",
     "text":"Apache Maven"
   },
 
   {
-    "icon":"/Git.png",
+    "icon":"/git.png",
     "text":"Git"
   },
 
@@ -53,7 +53,7 @@
   },
 
   {
-    "icon":"/REST.png",
+    "icon":"/rest.png",
     "text":"REST"
   },
   {
@@ -65,7 +65,7 @@
     "text":"HTML"
   },
   {
-    "icon":"/FreeMarker.png",
+    "icon":"/freeMarker.png",
     "text":"FreeMarker"
   }
 
