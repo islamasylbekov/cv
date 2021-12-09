@@ -2,12 +2,12 @@ import Head from "next/head";
 import styles from "../styles/index.module.scss";
 import skils from "./skils.json";
 import {
-  Avatar,
+  Avatar, Box, Button, Card, CardActions, CardContent, CardMedia,
   Chip,
   Container,
   CssBaseline,
   Divider,
-  Grid,
+  Grid, IconButton,
   Link,
   Paper,
   Typography,
@@ -55,7 +55,7 @@ export default function Home() {
                   Тойчубек уулу Исламбек
                 </Typography>
                 <Typography className={styles.subTitle} variant={"h6"}>
-                  Java full-stack developer
+                  Java-разработчик / Java Developer
                 </Typography>
               </div>
 
@@ -78,16 +78,39 @@ export default function Home() {
             <Divider />
             <Grid className={styles.gridContainer} container>
               <Grid item xs={4}>
+                <Card sx={{ display: 'flex'}} style={{borderRadius:20, height:"200px", width: 200}}>
+                  <CardMedia
+                      component="img"
+                      image="i.jpg"
+                      alt="Live from space album cover"
+                  />
+                </Card>
+                <Typography className={styles.subTitle} variant={"h6"}>
+                  <SchoolIcon />
+                  <span>Образование</span>
+                </Typography>
+                <Grid className={styles.edu} container>
+                  <Grid item xs={3}>
+                    <Typography variant={"body1"}>2018 &#8213; 2022</Typography>
+                  </Grid>
+                  <Grid item xs={9}>
+                    <Typography variant={"body1"}>
+                      Высшее незаконченное (бакалавр), КГУСТА им.Н.Исанова,
+                      Факультет Информационных Технологий, кафедра ПМ,
+                      специальность «Программная инженерия».
+                    </Typography>
+                  </Grid>
+                </Grid>
                 <div className={styles.contacts}>
-                  <Typography className={styles.subTitle} variant={"h6"}>
+                  <Typography align={"justify"} className={styles.subTitle} variant={"h6"}>
                     <ContactsIcon />
                     <span>Контакты</span>
                   </Typography>
                   <Typography className={styles.linkWrap}>
                     <Link
-                      className={styles.link}
-                      href="tel:+996779683524"
-                      underline={"none"}
+                        className={styles.link}
+                        href="tel:+996779683524"
+                        underline={"none"}
                     >
                       <PhoneIphoneIcon className={styles.linkIcon} /> +996 (779)
                       68-35-24
@@ -95,9 +118,9 @@ export default function Home() {
                   </Typography>
                   <Typography className={styles.linkWrap}>
                     <Link
-                      className={styles.link}
-                      href="mailto:islamasylbekov36@gmail.com"
-                      underline={"none"}
+                        className={styles.link}
+                        href="mailto:islamasylbekov36@gmail.com"
+                        underline={"none"}
                     >
                       <EmailIcon className={styles.linkIcon} />{" "}
                       islamasylbekov36@gmail.com
@@ -105,39 +128,28 @@ export default function Home() {
                   </Typography>
                   <Typography className={styles.linkWrap}>
                     <Link
-                      className={styles.link}
-                      href="https://telegram.me/islam2727"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      underline={"none"}
+                        className={styles.link}
+                        href="https://telegram.me/islam2727"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        underline={"none"}
                     >
                       <TelegramIcon className={styles.linkIcon} /> @islam2727
                     </Link>
                   </Typography>
                   <Typography className={styles.linkWrap}>
                     <Link
-                      className={styles.link}
-                      href="https://github.com/islamasylbekov"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      underline={"none"}
+                        className={styles.link}
+                        href="https://github.com/islamasylbekov"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        underline={"none"}
                     >
                       <GitHubIcon className={styles.linkIcon} />{" "}
                       github.com/islamasylbekov
                     </Link>
                   </Typography>
                 </div>
-                <Typography className={styles.subTitle} variant={"h6"}>
-                  <PersonIcon />
-                  <span>Обо мне</span>
-                </Typography>
-                <Typography>
-                  Начинающий веб-разработчик, хочу развиваться в направлении
-                  back-end. Front-end разработкой занимаюсь уже почти год,
-                  начинал с обучения верстке сайтов из PSD-макетов. Последние
-                  4-5 месяцев занимаюсь активным изучением разработки
-                  веб-приложений на React.
-                </Typography>
               </Grid>
               <Grid className={styles.dividerContainer} item xs={1}>
                 <Divider orientation={"vertical"} />
@@ -148,7 +160,7 @@ export default function Home() {
                   <span>Ключевые навыки</span>
                 </Typography>
                 <div className={styles.chipContainer}>{skilList}</div>
-
+                <Divider/>
                 <Typography className={styles.subTitle} variant={"h6"}>
                   <WorkIcon />
                   <span>Опыт работы</span>
@@ -164,22 +176,38 @@ export default function Home() {
                       Государственное учреждение &quot;Укук&quot; при Генералъной
                       прокуратуре Кыргызской Республики.
                     </Typography>
-                  </Grid>
-                </Grid>
-                <Typography className={styles.subTitle} variant={"h6"}>
-                  <SchoolIcon />
-                  <span>Образование</span>
-                </Typography>
-                <Grid className={styles.edu} container>
-                  <Grid item xs={3}>
-                    <Typography variant={"body1"}>2018 &#8213; 2022</Typography>
-                  </Grid>
-                  <Grid item xs={9}>
-                    <Typography variant={"body1"}>
-                      Высшее незаконченное (бакалавр), КГУСТА им.Н.Исанова,
-                      Факультет Информационных Технологий, кафедра ПМ,
-                      специальность «Программная инженерия».
+                    <Typography className={styles.title} variant={"h6"}>
+                      <span>Проекты:</span>
                     </Typography>
+                    <ul>
+                      <li>
+                        <span>МЧС Гараж (Система мониторинга сотрудников и служебных ТС):</span>
+                      </li>
+                      <ul>
+                        <li><span>Разработка основного функционала системы (Back и Front);</span></li>
+                        <li><span>Поддержка и сопровождение системы;</span></li>
+                      </ul>
+                    </ul>
+                    <Divider/>
+                    <ul>
+                      <li>
+                        <span>Автоматизированная информационная система &quot;Пробация&quot;:</span>
+                      </li>
+                      <ul>
+                        <li><span>Расширение проекта добавление трех новых модулей;</span></li>
+                        <li><span>Поддержка и сопровождение системы;</span></li>
+                      </ul>
+                    </ul>
+                    <Divider/>
+                    <ul>
+                      <li>
+                        <span>ИК102-сервис (Система мониторинга сотрудников ГУВД)</span>
+                      </li>
+                      <ul>
+                        <li><span>Разработка android приложения для мониторинга;</span></li>
+                        <li><span>Разработка системы;</span></li>
+                      </ul>
+                    </ul>
                   </Grid>
                 </Grid>
               </Grid>
