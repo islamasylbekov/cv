@@ -22,20 +22,7 @@
     "text":"Spring Security"
   },
 
-  {
-    "icon":"/rabbit.png",
-    "text":"RabbitMQ"
-  },
 
-  {
-    "icon":"/aop.png",
-    "text":"Spring AOP"
-  },
-
-  {
-    "icon":"/docker.png",
-    "text":"Docker"
-  },
 
   {
     "icon":"/maven.png",
@@ -68,22 +55,4 @@
     "icon":"/freemarker.png",
     "text":"FreeMarker"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

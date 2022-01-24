@@ -218,3 +218,18 @@ export default function Home() {
     </>
   );
 }
+
+// {
+//   "icon":"/rabbit.png",
+//     "text":"RabbitMQ"
+// },
+//
+// {
+//   "icon":"/aop.png",
+//     "text":"Spring AOP"
+// },
+//
+// {
+//   "icon":"/docker.png",
+//     "text":"Docker"
+// },
